@@ -5,6 +5,7 @@ const boydParser = require("body-parser");
 const userRoutes = require("./routes/userRoutes");
 require("dotenv").config();
 const app = express();
+const PORT = 3000;
 
 // Middleware
 app.use(cors())
